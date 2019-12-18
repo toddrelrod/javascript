@@ -1,0 +1,74 @@
+/* Font Family Starts */
+@import url('https://fonts.googleapis.com/css?family=Calistoga|Roboto&display=swap');
+/* font-family: 'Calistoga', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+/* Font Family Ends */
+
+Nav{
+    background-image:     url(https://images.unsplash.com/photo-1506813713591-56fc5e539b80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    position: sticky;
+    background-size:cover;
+    Height:700px;
+    background-position:0px -400px;
+    font-family: 'Baloo', cursive;
+    position: sticky;
+    top: 0;
+    Margin: 25px;
+    height: 159px;
+    border: 3px solid black;
+}
+.logo{
+  height: 155px;
+  weidth: 140px;
+  margin: 1px;
+  border-radius: 200%;
+  box-shadow: 0 0 20px 20px black;
+  background: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 2px 5px 4px black;
+}
+ul{
+  font-family: 'Calistoga', cursive;
+  Display:content;
+  margin-right: 16px;
+  margin-top: -8px;
+  list-style-type: none;
+  float: right;
+}
+li{
+  display:inline-block;
+  Padding:55px;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: #8FDE12;
+    opacity: .5;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    height: 60px;
+    width: 80px;
+  }
+  #myBtn:hover {
+    background-color: #555;
+  }
+  main{
+    height: 1000px;  
+    background-color: blue;
+  }
+body{
+    background-color: blue;
+}
